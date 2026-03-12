@@ -1,14 +1,23 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar.jsx";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar.jsx"
+import Login from "./components/pages/login/Login.jsx";
+import Registro from "./components/pages/registro/Registro.jsx";
+import Manual from "./components/pages/manual/Manual.jsx";
+import Inicio from "./components/pages/home/inicio.jsx";
 
-const App = () => {
+function App() {
     return (
-        <div className="App">
+        <BrowserRouter>
             <Navbar />
-            <h1>Bienvenido a mi pagina</h1>
-        </div>
+            <Routes>
+                <Route path="/" element={<Inicio />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/Registro" element={<Registro />} />
+                <Route path="/manual" element={<Manual />} />
+            </Routes>
+        </BrowserRouter>
     );
-}
+}   
 
 export default App;

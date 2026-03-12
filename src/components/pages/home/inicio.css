@@ -1,0 +1,45 @@
+main.Inicio {
+    margin: 80px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio-container {
+    position: static;
+    max-width: 900px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.377), rgba(0, 255, 200, 0.342));
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.inicio-container h1 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-style: bold;
+}
+
+.inicio-container p {
+    color: #000000;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.inicio-description {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.377), rgba(255, 0, 0, 0.342));
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}

@@ -2,35 +2,49 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 71);
+    background-color: rgb(0, 0, 0);
     padding: 0.5rem 2rem;
     height: 70px;
-    border-bottom: 5px solid aqua;
-    border-radius: 60px;
-    box-shadow: 0 0 10px rgb(0, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    position: sticky;
 }
 
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
 
-.navbar .logo{
-    font-size: 1.5rem;
+.navbar-logo{
+    font-size: 1rem;
     font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 .navbar-links{
+    color: white;
     list-style: none;
     display: flex;
     gap: 1.5rem;
+
 }
 
-.navbar .nav-links li a {
+.nav-links li a {
+    color: white;
     text-decoration: none;
-    color: rgb(0, 255, 0);
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .navbar-links li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(207, 0, 0);
 }
 
 .navbar-btns{
@@ -40,20 +54,20 @@
 }
 
 .login-btn{
-    background-color: green;
+    background-color: rgb(199, 0, 0);
     padding: 0.5rem 1rem;
     border-radius: 60px;
     transition: background-color 0.3s ease;
 }
 
 .login-btn:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 12px rgb(255, 255, 255);
+    background-color: rgb(255, 58, 58);
+    box-shadow: 0 0 20px rgb(255, 0, 0);
 }
 
 .registro-btn{
     background-color: transparent;
-    border: 2px solid green;
+    border: 2px solid rgba(255, 130, 126, 0.486);
     padding: 0.5rem 1rem;
     border-radius: 60px;
     color: rgb(255, 255, 255);
@@ -61,6 +75,11 @@
 }
 
 .registro-btn:hover{
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 10px rgb(0, 255, 0);
+    background-color: rgba(80, 0, 133, 0.356);
+    box-shadow: 0 0 10px rgb(140, 0, 255);
+    color: rgb(0, 217, 255);
 }
+
+
+
+

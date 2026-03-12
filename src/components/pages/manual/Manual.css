@@ -1,0 +1,78 @@
+.Manual{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.roles-container {
+    display: flex;
+    position: static;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.roles-box {
+    margin-top: 60px;
+    background: linear-gradient(20deg, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.397));
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 1s ease;
+    backdrop-filter: blur(10px);
+}
+
+.roles-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(255, 223, 223, 0.7);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.Manual h1 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.Manual p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.Manual h2 {
+    color: rgb(255, 174, 174);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Administrador {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.usuario {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.consultor {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
