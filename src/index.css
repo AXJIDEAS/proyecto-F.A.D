@@ -3,14 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  scrollbar-color: rgb(255, 0, 0) rgb(255, 255, 255);
+  scrollbar-color: #196f3d #196f3d;
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }
 
 body {
-  background: url(./resources/fondo.jpg) no-repeat center center;
+  background-image: url("/resources/fondo.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App {

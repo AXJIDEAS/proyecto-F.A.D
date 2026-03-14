@@ -36,7 +36,7 @@
 
 .Manual h1 {
     margin-bottom: 10px;
-    color: rgb(255, 255, 255);
+    color: #1a4325;
     font-size: 3rem;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .Manual h2 {
-    color: rgb(255, 174, 174);
+    color: #2e8b57;
     margin-top: 30px;
     margin-bottom: 10px;
 }

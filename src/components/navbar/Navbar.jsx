@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-logo">
                 <img src="/resources/database-logo.svg" alt="Logo" className="navbar-logo-img" />
-                <a href="/"><h1>Proyecto FAD</h1></a>
+                <a href="/"><h1>Vodeg-App</h1></a>
             </div>
 
             <ul className="navbar-links">

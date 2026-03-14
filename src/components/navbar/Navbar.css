@@ -6,7 +6,7 @@
     padding: 0.5rem 2rem;
     height: 70px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 255, 149);
     position: sticky;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .navbar-links li a:hover{
-    color: rgb(207, 0, 0);
+    color: rgb(0, 230, 142);
 }
 
 .navbar-btns{
@@ -54,20 +54,20 @@
 }
 
 .login-btn{
-    background-color: rgb(199, 0, 0);
+    background-color: #196f3d;
     padding: 0.5rem 1rem;
     border-radius: 60px;
     transition: background-color 0.3s ease;
 }
 
 .login-btn:hover{
-    background-color: rgb(255, 58, 58);
-    box-shadow: 0 0 20px rgb(255, 0, 0);
+    background-color: #2e8b57;
+    box-shadow: 0 0 20px #2e8b57;
 }
 
 .registro-btn{
     background-color: transparent;
-    border: 2px solid rgba(255, 130, 126, 0.486);
+    border: 2px solid #2e8b57;
     padding: 0.5rem 1rem;
     border-radius: 60px;
     color: rgb(255, 255, 255);
@@ -75,9 +75,9 @@
 }
 
 .registro-btn:hover{
-    background-color: rgba(80, 0, 133, 0.356);
-    box-shadow: 0 0 10px rgb(140, 0, 255);
-    color: rgb(0, 217, 255);
+    background-color: rgba(25, 111, 61, 0.356);
+    box-shadow: 0 0 10px #196f3d;
+    color: #2e8b57;
 }
 
 

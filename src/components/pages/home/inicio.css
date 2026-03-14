@@ -22,8 +22,15 @@ main.Inicio {
 
 .inicio-container h1 {
     margin-bottom: 20px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 2.5rem;
+    font-style: bold;
+}
+
+.inicio-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 2rem;
     font-style: bold;
 }
 

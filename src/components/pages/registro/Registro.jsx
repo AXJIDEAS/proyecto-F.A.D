@@ -1,9 +1,15 @@
 import React from "react";
-const Login = () => {
+import "./Registro.css";
+
+const Registro = () => {
     return (
-        <div className="login-container">
+        <div className="registro"> 
+
+        <div className="registro-container">
             <h1>Registro</h1>
-            <form className="login-form">
+            <div className="registro-form">
+                
+            <form>
                 <label htmlFor="email">Email:</label>
                 <input type="email" id="email" name="email" required />
                 <br />
@@ -12,8 +18,10 @@ const Login = () => {
                 <br />
                 <button type="submit">Registrarse</button>
             </form>
+            </div>
+        </div>
         </div>
     );
 }
 
-export default Login;
+export default Registro;
