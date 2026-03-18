@@ -14,8 +14,7 @@ const Navbar = () => {
                 <li><a href="/manual">Manual de roles</a></li>
             </ul>
             <div className="navbar-btns">
-                <a href="/Registro" className="registro-btn">Registrarse</a>
-                <a href="/login" className="login-btn">Iniciar sesión</a>
+                <a href="/login" className="login-btn">Acceder</a>
             </div>
         </nav>
     );
