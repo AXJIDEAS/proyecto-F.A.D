@@ -36,8 +36,9 @@
 
 .Manual h1 {
     margin-bottom: 10px;
-    color: #1a4325;
+    color: #ffffff;
     font-size: 3rem;
+    text-shadow: #00c42a 0 0 20px;
 }
 
 .Manual p {
@@ -47,7 +48,7 @@
 }
 
 .Manual h2 {
-    color: #2e8b57;
+    color: #2e8b57 white;
     margin-top: 30px;
     margin-bottom: 10px;
 }
